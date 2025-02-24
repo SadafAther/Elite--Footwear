@@ -1,0 +1,141 @@
+
+    
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Elite Footwear</title>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+            <link rel="stylesheet" href="styles.css">
+            <script defer src="script.js"></script>
+            <style>
+                body {
+                    background: linear-gradient(to right, #ab13f1, #ac09dd);
+                    color: white;
+                    font-family: 'Arial', sans-serif;
+                    scroll-behavior: smooth;
+                }
+                .logo {
+                    font-size: 2rem;
+                    font-weight: bold;
+                    transition: transform 0.5s;
+                    display: inline-block;
+                    color: #ff7e5f;
+                }
+                .logo:hover {
+                    transform: rotateY(360deg);
+                }
+                .navbar {
+                    background-color: white;
+                    position: fixed;
+                    width: 100%;
+                    top: 0;
+                    z-index: 1000;
+                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                }
+                .nav-link {
+                    color: #b019f7 !important;
+                    font-weight: bold;
+                    transition: color 0.3s, transform 0.3s;
+                }
+                .nav-link:hover {
+                    color: #feb47b !important;
+                    transform: scale(1.1);
+                }
+                .btn {
+                    transition: all 0.3s;
+                }
+                .btn:hover {
+                    background-color: #b811e2;
+                    color: #f0ebe9;
+                }
+                section {
+                    padding-top: 100px; /* Increased padding to avoid overlap */
+                }
+                #about p {
+                    text-align: justify;
+                    margin: 0 auto;
+                    max-width: 800px;
+                }
+            </style>
+        </head>
+        <body>
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container">
+                        <a class="navbar-brand logo" href="#home">Elite Footwear</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+                                <li class="nav-item"><a href="#products" class="nav-link">Products</a></li>
+                                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            
+            <section id="home" class="hero d-flex align-items-center justify-content-center py-8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 d-flex align-items-center">
+                            <div>
+                                <h1>Step Into Comfort & Style</h1>
+                                <p>Discover our exclusive collection of premium quality shoes designed for elegance and comfort. Whether you need casual sneakers, formal dress shoes, or sports footwear, we have the perfect fit for you. Elevate your style with our handcrafted designs, made from the finest materials to ensure durability and unmatched comfort.</p>
+                                <a href="#products" class="btn btn-light">Explore Collection</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <img src="male-foot-with-brown-leather-shoes-jeans_1150-5998 (1).jpg" class="img-fluid rounded" alt="Stylish Shoes" style="height: 500px; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); border-radius: 10px; ">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section id="about" class="content text-center py-8">
+                <h2>About Us</h2>
+                <p>At Elite Footwear, we believe that every step should be taken with confidence and comfort. Our journey began with a passion for quality craftsmanship and a mission to redefine footwear fashion. We meticulously design every pair of shoes, blending timeless elegance with modern trends, ensuring that our customers experience the perfect fusion of style and durability. Whether you're looking for everyday essentials or high-fashion statements, Elite Footwear is your ultimate destination. Step into excellence, step into Elite.</p>
+            </section>
+        
+            <section id="products" class="content text-center py-8">
+                <h2>Our Products</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-3"><img src="brown-highheeled-shoes-with-laces-isolate-white-background_273893-230.avif" class="img-fluid rounded" alt="Product 1"><p>Product 1</p></div>
+                    <div class="col-md-3"><img src="fashion-running-sneaker-shoes-isolated-white_47469-440.avif" class="img-fluid rounded" alt="Product 2"><p>Product 2</p></div>
+                    <div class="col-md-3"><img src="sneakers-boots_87394-530.avif" class="img-fluid rounded" alt="Product 3"><p>Product 3</p></div>
+                </div>
+            </section>
+        
+           
+        
+    
+        <section id="products" class="content text-center py-1">
+            <!-- <h2>Our Products</h2> -->
+            <div class="row justify-content-center">
+                <div class="col-md-3"><img src="shot-elegant-beautiful-leather-heels-isolated-white_181624-32574.jpg" class="img-fluid rounded" alt="Product 1" style="height: 350px;"><p>Product 1</p></div>
+                <div class="col-md-3"><img src="suede-shoes-white-background_488220-3877.avif" class="img-fluid rounded" alt="Product 2"><p>Product 2</p></div>
+                <div class="col-md-3"><img src="brown-highheeled-shoes-with-laces-isolate-white-background_273893-230.avif" class="img-fluid rounded" alt="Product 3" style="height: 350px;"><p>Product 3</p></div>
+            </div>
+        </section>
+    
+        <section id="contact" class="content bg-light text-center text-dark fw-bold py-5">
+            <h2>Contact Us</h2>
+            <p>Email: contact@elitefootwear.com</p>
+            <p>Phone: +123 456 7890</p>
+        </section>
+        <footer id="footer" class="footer bg-white text-dark text-center py-3 ">
+            
+            <p>&copy; 2025 Elite Footwear. All Rights Reserved.</p>
+        </footer>
+    </body>
+    </html>
+    
+
+   
